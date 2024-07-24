@@ -1,0 +1,39 @@
+/* mylescruz.com stylesheet*/
+
+/* Fonts */
+@font-face { font-family: Lemon-Milk; src: url('fonts/lemon_milk/LEMONMILK-Regular.otf');}
+@font-face { font-family: Monaco; src: url('fonts/monaco/Monaco.ttf');}
+
+/* Global Styles */
+#logo {
+    font-size: 30px;
+}
+
+.lemon {
+    font-family: Lemon-Milk;
+}
+
+.monaco {
+    font-family: Monaco;
+}
+
+/* projects.html Styles */
+.project-name {
+    color: black;
+    text-decoration: none;
+}
+
+.project-name:hover {
+    text-decoration: inherit;
+}
+
+/* Footer Styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.socials-img {
+    width: 20px;
+    height: 20px;
+}
